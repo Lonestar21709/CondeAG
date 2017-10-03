@@ -1,0 +1,12 @@
+header{
+	padding: 150px 0 100px;
+	background: steelblue;
+}
+
+section{
+	padding: 90px 0px;
+}
+
+a.js-scroll-trigger:active{
+	color:white;
+}

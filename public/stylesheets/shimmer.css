@@ -1,0 +1,42 @@
+
+
+
+#logo{
+    /*padding-bottom: 6px;*/
+    vertical-align: middle;
+    
+}
+
+
+
+.mask a{
+  position: relative;
+  display:block;
+  width: 250px;
+  height: 173px;
+  margin: auto;
+  /*padding-left: 80px;*/
+  background: ;
+  -webkit-filter: drop-shadow(1px 1px 2px rgba(0,0,0,.5));
+}
+.mask a{
+  background-position: -700px;
+  /*background-color: red;*/
+}
+.mask a:hover,
+.mask a:focus{
+  background-position: 10px 0;
+  /*change speed to see in slow motion*/
+  transition: all 1s;
+}
+.mask a::after{
+  content:'';
+  position: absolute;
+  pointer-events: none;
+  top:0; left:0; right:0; bottom: 0;
+  background: radial-gradient(0 0,circle farthest-side, rgba(255,255,255,0) 90%,rgba(255,255,255,.8) 98%,rgba(255,255,255,0) 100%) no-repeat;
+  background: radial-gradient(circle farthest-side at 0 0, rgba(255,255,255,0) 90%,rgba(255,255,255,.8) 98%,rgba(255,255,255,0) 100%) no-repeat;
+  background-position: inherit; 
+  -webkit-mask: url('/CA_logo_V3Scaled.png') center;
+  mask: url('#mask-chrome');
+}

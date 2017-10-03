@@ -1,0 +1,216 @@
+/*header*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    font-size: 15px;
+
+}
+
+
+p {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+/*logo header*/
+#square{
+    padding-top: 10px;
+}
+
+.info-box p{
+    font-size: 20px;
+}
+/**/
+
+/*.navbar-inverse{*/
+/*    background-color: #e8e8e8;*/
+/*}*/
+
+.container {
+    padding: 10px 10px;
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+}
+.top-header {
+    padding: 25px 10px 15px;
+    height: 180px;
+    text-align:center;
+}
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar-inverse{
+    border-color: transparent;
+    max-width: 80%; 
+    margin: 20px auto;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-fixed-top {
+    height: 75px;
+    
+}
+
+
+.nav > li > a {
+	line-height:20px;
+	color:#fff;
+	text-transform:uppercase;
+	border-radius: 0;
+	font-weight: 600;
+	font-size:18px;
+	margin: 20px 30px;
+}
+
+
+.navbar {
+    background-color: #4871F7;
+    margin: 20px auto;
+}
+
+.top-header .col-sm-4 {
+    text-align: center!important;
+    float: none;
+    margin-bottom: 15px!important;
+}
+
+/*home.ejs*/
+
+/*.form{*/
+/*    border-color: */
+/*}*/
+.home{
+    width: 60%;
+    padding: 40px 0;
+}
+#forms{
+    padding: 2.5px 0;
+}
+h2{
+    color: #3498db;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 2rem;
+}
+hr {
+    margin: 2.5em 0;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+/*div p:nth-of-type(1){*/
+.info{
+	border-left: 5px solid #bdc3c7;
+	padding-left: 10px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.profile-info{
+	/*border-left: 5px solid #bdc3c7;*/
+	padding-left: 10px;
+	font-size: 16px;
+	color:white;
+	line-height: 30px;
+}
+/*footer*/
+h4{
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.footer{
+    background-color:#323232;
+    padding: 30px 0;
+    font-size: 12px;
+    color: white;
+}
+
+.middle {
+    padding: 0 15px;
+    border-left: 1px solid #c2c2c2;
+    border-right: 1px solid #c2c2c2;
+    height: 240px;
+}
+#store-hours li{
+  
+    /*width: 80%;*/
+    border-bottom: 1px solid #4871F7;
+    /*position: relative;*/
+}
+.links{
+    font-size: 16px;
+    height: 33px;
+    line-height: 33px;
+    margin-bottom: 10px;    
+}
+.contact{
+    font-size: 14px;
+    line-height: 33px;
+    margin-bottom: 10px; 
+}
+.col-lg-3{
+   /*background: url('/fax_sym.png') left no-repeat;*/
+
+    /*width: 25%;*/
+}
+#contact-list mail{
+   /*background: url(https://source.unsplash.com/B5tUnCpJw6s) no-repeat center center fixed;*/
+}
+#contact-list li {
+    padding-left: 20px;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+}
+.footer .top-footer h4{
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+}
+.footer .top-footer .col-lg-3{
+    /*border-bottom: 1px solid #4871F7;*/
+    height: 250px;
+    
+}
+ /*Main div for border to extend to 50% from bottom left corner */
+/*#store-hours li::after {*/
+/*    content : "";*/
+/*    position: absolute;*/
+/*    right    : 0;*/
+/*    bottom  : 0;*/
+/*    height  : 1px;*/
+/*    width   : 190px;*/
+/*    border-bottom:1px solid #4871F7;*/
+    /*text-align: justify;*/
+/*}*/
+
+.blue {
+    text-align: center;
+    padding: 10px 0;
+    /*background-color: white;*/
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+/*links in footer*/
+/*li a:hover {*/
+/*    color:white;*/
+/*}*/
+
+.about{
+    width: 80%;
+    padding: 40px 0;
+    height: auto;
+}
+
+ol > li {
+    line-height: 25px;
+}

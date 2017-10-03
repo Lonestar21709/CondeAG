@@ -1,0 +1,40 @@
+<% include partials/header %>
+
+<div class = "container home">
+    
+    <form action = "/home" method = "POST">
+        <div class = "form-group row" id = "forms">
+            <label for="name"  class = "">Name</label>
+            <input type = "text" class = "form-control" id ="name" name = "contact[name]" placeholder = "Korbin Dallas" >
+        
+
+        </div>
+        <div class="form-group row" id = "forms">
+            <label for = "email">Email address</label>
+            <input type="email" class="form-control" id="email" name = "contact[email]" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        
+        <div class="form-group row" id = "forms">
+            <label for = "textArea">Any additional info</label>
+            <textarea class="form-control" id="textArea" name = "contact[info]" rows="3"></textarea>
+        </div>
+        
+        <!--<div class="form-group" id = "forms">-->
+        <!--    <label for="inputFile">Upload photo of broken windshield/glass</label>-->
+        <!--    <input type="file" class="form-control-file" id="inputFile" aria-describedby="fileHelp">-->
+        <!--</div>-->
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="form-check" id = "forms">
+            <label class="form-check-label">
+              <input type="checkbox" required class="form-check-input">
+              Check to make sure you're not a robot
+            </label>
+        </div>
+      
+    </form> <!--end of form-->
+</div>  <!--end of container-->
+
+
+<% include partials/footer %>

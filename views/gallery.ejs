@@ -1,0 +1,31 @@
+<% include partials/header %>
+
+	
+	
+	
+	
+<div class = "container" style= "padding-bottom: 30px;">
+    <div class = "jumbotron">
+        <h1>Conde AutoGlass Gallery</h1>
+    </div>
+    
+    
+    <div class = "row" >
+        <% jobs.forEach(function(job){ %>
+            <div class = "col-lg-4 col-sm-6">
+                <div class = "thumbnail">
+                    <img src = "<%= job.image%>">
+                    <div class = "caption">
+                        <h4><%= job.title %></h4>
+                    </div>
+                </div>
+            </div>
+        <% }); %>
+        
+    </div>
+</div>
+
+
+
+
+<% include partials/footer %>
